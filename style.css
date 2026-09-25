@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #0a0a0a;
+    color: #ffffff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #222222;
+}
+.logo {
+    color: #ff6b6b;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.1;
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.nav-links a:hover {
+    color: #ff6b6b;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p {
+    color: #cccccc;
+    font-size: 16px;
+}
+#skills h2 {
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 28px;
+    margin: 20px 0;
+}
+.skills-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.skill-category {
+    background: #141414;
+    width: 260px;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 107, 107, 0.4);
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.15);
+    transition: 0.3s ease;
+}
+.skill-category:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.25);
+}
+.skill-category h3 {
+    color: #ff6b6b;
+    margin-bottom: 12px;
+}
+.skill-category ol {
+    margin-left: 18px;
+    line-height: 1.8;
+}
+.level-table {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    width: 100%;
+}
+.level-table table {
+    width: 60%;
+    background: #141414;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 107, 107, 0.35);
+}
+.level-table th {
+    background: #1a1a1a;
+    color: #ff6b6b;
+    padding: 14px;
+    font-size: 18px;
+}
+.level-table td {
+    padding: 12px;
+    color: #eeeeee;
+    border-top: 1px solid #2a2a2a;
+}
