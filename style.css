@@ -86,9 +86,7 @@ main {
   display: block;
 }
 
-body:has(.page:target) #home:not(:target) {
-  display: none;
-}
+
 
 .eyebrow {
   margin: 0 0 10px;
