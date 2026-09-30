@@ -7,53 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">MY PORTFOLIO</div>
-    <nav aria-label="Main navigation">
-      <a class="nav-link" href="#home">Home</a>
-      <a class="nav-link" href="#skills">Skills</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </nav>
-  </header>
-
   <main>
-    <section class="page" id="home" aria-labelledby="home-title">
-      <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
-      <p class="eyebrow">This is Sachin</p>
-      <h1 id="home-title">A little bit <span>about me</span></h1>
-      <p class="intro">I enjoy learning new things and creating useful, beautiful experiences with technology.</p>
-    </section>
-
-    <section class="page" id="skills" aria-labelledby="skills-title">
-      <p class="eyebrow">WHAT I’M LEARNING</p>
-      <h1 id="skills-title">My <span>skills</span></h1>
-      <p class="intro">A growing toolkit for building thoughtful digital experiences.</p>
-      <div class="skill-list">
-        <article class="skill-card">
-          <div class="skill-heading"><span class="skill-badge java">☕</span><div><h2>Java</h2><p>Programming language</p></div></div>
-          <div class="progress-track"><span style="width: 70%"></span></div>
-        </article>
-        <article class="skill-card">
-          <div class="skill-heading"><span class="skill-badge html">&lt;/&gt;</span><div><h2>HTML</h2><p>Web page structure</p></div></div>
-          <div class="progress-track"><span style="width: 85%"></span></div>
-        </article>
-        <article class="skill-card">
-          <div class="skill-heading"><span class="skill-badge html">&lt;/&gt;</span><div><h2>css</h2><p>Web page structure</p></div></div>
-          <div class="progress-track"><span style="width: 85%"></span></div>
-        </article>
-        <article class="skill-card">
-          <div class="skill-heading"><span class="skill-badge sql">&lt;/&gt;</span><div><h2>sql</h2><p>Web page structure</p></div></div>
-          <div class="progress-track"><span style="width: 85%"></span></div>
-        </article>
+    <input type="checkbox" id="show-contact" class="contact-toggle">
+  <div class="banner-parent">
+        <div class="banner-left">
+          <h2>Why <span>choose me?</span></h2>
+          <p>I am learning and building projects with modern web technologies.</p>
+          <ul class="banner-points">
+            <li>✔ Clean and responsive design</li>
+            <li>✔ Learning Java, HTML, CSS, SQL</li>
+            <li>✔ Focus on useful user experience</li>
+          </ul>
+          <label for="show-contact" class="banner-btn">Let's Connect ↗</label>
+        </div>
+        <div class="banner-right">
+          
+          
+          <img src="main.jpg" class="skills-pic">
+        </div>
       </div>
-    </section>
 
-    <section class="page" id="contact" aria-labelledby="contact-title">
-      <p class="eyebrow">SAY HELLO</p>
-      <h1 id="contact-title">Let’s <span>connect</span></h1>
-      <p class="intro">I’d love to hear from you. Feel free to get in touch and start a conversation.</p>
-      <a class="contact-card" href="mailto:sachin17@example.com"><span class="card-icon">✉</span><span><strong>Email me</strong><small>sachin17@example.com</small></span><span class="arrow">↗</span></a>
-    <a class="contact-card" href="p.no:6379880036"><span class="card-icon">✉</span><span><strong>call me</strong><small>6379880036</small></span><span class="arrow">↗</span></a></section>
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="intro">I'd love to hear from you. Feel free to get in touch.</h2>
+      <a class="contact-card" href="mailto:sachin17@gmail.com"><span class="card-icon">✉</span><span><strong>Email me</strong><small>sachin17@gmail.com</small></span><span class="arrow">↗</span></a>
+      <a class="contact-card" href="tel:6379880036"><span class="card-icon">📞</span><span><strong>Call me</strong><small>6379880036</small></span><span class="arrow">↗</span></a>
+    </section>
   </main>
 </body>
 </html>
